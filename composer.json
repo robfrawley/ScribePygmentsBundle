@@ -1,5 +1,5 @@
 {
-    "name": "varspool/pygments-bundle",
+    "name": "scribe/pygments-bundle",
     "type": "symfony-bundle",
     "description": "A bundle that integrates Pygments to provide code-highlighting within Sundown rendered Markdown",
     "keywords": ["sundown", "markdown", "pygments"],
@@ -12,8 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "symfony/framework-bundle": "2.*",
-        "kwattro/markdown-bundle": "dev-master"
+        "symfony/framework-bundle": "~2.5",
+        "scribe/markdown-bundle": "~0.1"
     },
     "autoload": {
         "psr-0": { "Varspool\\PygmentsBundle": "" }
